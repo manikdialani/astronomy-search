@@ -98,10 +98,10 @@ npm run serve
 _Sample screenshots:_
 
 <p align="center">
-  <img src="screenshots/Screenshot-16.png" width="500"/>
-  <img src="screenshots/Screenshot-13.png" width="500"/>
-  <img src="screenshots/Screenshot-17.png" width="500"/>
-  <img src="screenshots/Screenshot-12.png" width="500"/>
+  <img src="screenshots/Screenshot-16.png" width="400"/>
+  <img src="screenshots/Screenshot-13.png" width="400"/>
+  <img src="screenshots/Screenshot-17.png" width="400"/>
+  <img src="screenshots/Screenshot-12.png" width="400"/>
 </p>
 
 ---
@@ -114,8 +114,8 @@ You can filter search results by year using the year dropdown in the UI.
 
 
 <p align="center">
-  <img src="screenshots/Screenshot-3.png" width="500"/>
-  <img src="screenshots/Screenshot-4.png" width="500"/>
+  <img src="screenshots/Screenshot-3.png" width="400"/>
+  <img src="screenshots/Screenshot-4.png" width="400"/>
 </p>
 
 ---
@@ -125,7 +125,7 @@ You can filter search results by year using the year dropdown in the UI.
 You can control how many results are shown per page using the "items per page" selector in the pagination bar.
 
 <p align="center">
-  <img src="screenshots/Screenshot-8.png" width="500"/>
+  <img src="screenshots/Screenshot-8.png" width="400"/>
 </p>
 
 ---
@@ -136,8 +136,8 @@ The search engine supports instant results and returns prefix matches as you typ
 
 
 <p align="center">
-  <img src="screenshots/Screenshot-5.png" width="500"/>
-  <img src="screenshots/Screenshot-6.png" width="500"/>
+  <img src="screenshots/Screenshot-5.png" width="400"/>
+  <img src="screenshots/Screenshot-6.png" width="400"/>
 </p>
 
 ---
@@ -148,7 +148,7 @@ Semantic search is powered by a Hugging Face embedding model (all-MiniLM-L6-v2) 
 
 
 <p align="center">
-  <img src="screenshots/Screenshot-7.png" width="500"/>
+  <img src="screenshots/Screenshot-7.png" width="400"/>
 </p>
 
 
@@ -158,9 +158,9 @@ Semantic search is powered by a Hugging Face embedding model (all-MiniLM-L6-v2) 
 
 **Frontend**
 - Theme Toggle:	Light/dark mode button
-- Search Suggestions:	Autocomplete suggestions as the user types (frontend + backend logic)
-- Image Favorites / Save List:	Allow users to "star" or save images locally (e.g., localStorage)
-- Download: Button	One-click to download images
+- Search Suggestions:	Autocomplete suggestions as the user types
+- Image Favorites / Save List:	Allow users to "star" or save images
+- Download Button:	One-click to download images
 - Infinite Scroll:	Instead of pagination, load more results as user scrolls
 
 **Backend**
