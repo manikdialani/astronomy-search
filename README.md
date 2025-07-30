@@ -182,6 +182,7 @@ Semantic search is powered by a Hugging Face embedding model (all-MiniLM-L6-v2) 
 ## Useful Links
 
 - [Elasticsearch Docs](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)
+- [3CodeCamp's Elasticsearch Course](https://www.youtube.com/playlist?list=PLMSb3cZXtIfpiHVLwXhaWk3KDXuklHdj5)
 - [FastAPI Docs](https://fastapi.tiangolo.com/)
 - [Vue.js Docs](https://vuejs.org/)
 - [NASA's APOD Archive](https://apod.nasa.gov/apod/archivepixFull.html)
