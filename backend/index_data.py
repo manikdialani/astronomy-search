@@ -5,6 +5,7 @@ from pprint import pprint
 from config import INDEX_NAME_DEFAULT, INDEX_NAME_N_GRAM
 from utils import get_es_client
 from elasticsearch import Elasticsearch
+from elastic_transport import ObjectApiResponse
 from pathlib import Path
 
 
@@ -15,7 +16,7 @@ def index_data(documents: List[dict], use_n_gram_tokenizer: bool = False) -> Non
     index_name = INDEX_NAME_N_GRAM if use_n_gram_tokenizer else INDEX_NAME_DEFAULT
     pprint(f'Indexed {len(documents)} documents into Elasticsearch index "{index_name}"')
 
-
+# This function creates an index with N-Gram tokenizer or standard tokenizer based on the flag
 def _create_index(es: Elasticsearch, use_n_gram_tokenizer: bool) -> dict:
     tokenizer = 'n_gram_tokenizer' if use_n_gram_tokenizer else 'standard'
     index_name = INDEX_NAME_N_GRAM if use_n_gram_tokenizer else INDEX_NAME_DEFAULT
